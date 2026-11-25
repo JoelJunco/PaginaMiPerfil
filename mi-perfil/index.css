@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 40px;
+}
+
+.perfil {
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.foto {
+    width: 180px;
+    height: 180px;
+    border:10px solid red;
+    border-radius: 32px;
+}
+
+.foto:hover{
+    border-color:10px
+}
+
+.datos h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+.datos p {
+    color: #000000;
+    margin: 10px 0;
+}
+
+.descripcion {
+    margin-top: 30px;
+    border-top: 1px solid #000000;
+    padding-top: 20px;
+}
+
+.descripcion h2 {
+    color: #000000;
+}
+
+.descripcion p {
+    color: #131313;
+    line-height: 1.6;
+}
